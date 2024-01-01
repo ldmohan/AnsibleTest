@@ -7,7 +7,7 @@
    - name: install apache and php
      package:
        name:
-         - "{{Apache package}}"
+         - "{{apache_package}}"
          - "{{Php package}}"
        state: latest
        update_cache: yes
